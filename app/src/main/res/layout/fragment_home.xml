@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <Button
+        android:id="@+id/btn_eng_songs"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/custom_button"
+        android:rotationX="-4"
+        android:text="@string/butto_eng"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+
+        android:textSize="25sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_hindi_songs"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/custom_button"
+        android:rotationX="-4"
+        android:text="@string/butto_hindi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_eng_songs" />
+
+
+    <Button
+        android:id="@+id/btn_marthi_songs"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_button"
+        android:rotationX="-4"
+        android:text="@string/butto_marthi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hindi_songs"
+        app:layout_constraintVertical_bias="0.097" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

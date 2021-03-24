@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962019459066",
+    "project_id": "beliverssongs",
+    "storage_bucket": "beliverssongs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962019459066:android:1f85a4df77aaef38536e43",
+        "android_client_info": {
+          "package_name": "com.pawan.beliverssongs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962019459066-nur72so8nmithdtq3561gcgrlk837hg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsF8urbI8Mq4h4bsq4HkrfJk5DRSUVHcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962019459066-nur72so8nmithdtq3561gcgrlk837hg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BeliversSongs</string>
+    <string name="title_activity_song_types">SongTypes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Believers Christian Song</string>
+    <string name="nav_header_subtitle">विश्वासनाऱ्याची गीते </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Exit</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Song Request</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Songrequest">Song Request</string>
+
+    <!--Buttton Names-->
+    <string name="butto_eng">English Songs</string>
+    <string name="butto_hindi">हिंदी गीत</string>
+    <string name="butto_marthi">मराठी गीत</string>
+    <string name="vrs">Admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.</string>
+
+    <string name="verse_address">Colossians 3:16</string>
+
+
+</resources>
