@@ -39,7 +39,7 @@ public class songShowMarthi extends AppCompatActivity {
         recview.setAdapter(adapter);
 
         db=FirebaseFirestore.getInstance();
-        db.collection("marthi_songs").get()
+        db.collection("marthi_songs").orderBy("title").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {

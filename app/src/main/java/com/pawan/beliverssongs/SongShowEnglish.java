@@ -45,7 +45,7 @@ public class SongShowEnglish extends AppCompatActivity {
         recview.setAdapter(adapter);
 
         db = FirebaseFirestore.getInstance();
-        db.collection("english_songs").get()
+        db.collection("english_songs").orderBy("title").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {

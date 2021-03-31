@@ -12,16 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeliversSongs">
 
-        <activity android:name=".songShowMarthi" />
-        <activity android:name=".SongShowHindi" />
-        <activity android:name=".Details" />
-        <activity android:name=".SongShowEnglish" />
+        <activity android:name=".songShowMarthi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SongShowHindi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SongShowEnglish"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SongTypes"
             android:label="@string/title_activity_song_types"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.BeliversSongs.NoActionBar" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

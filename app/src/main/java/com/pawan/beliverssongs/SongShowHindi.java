@@ -40,7 +40,7 @@ public class SongShowHindi extends AppCompatActivity {
 
         db=FirebaseFirestore.getInstance();
 
-        db.collection("hindi_songs").get()
+        db.collection("hindi_songs").orderBy("title").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
