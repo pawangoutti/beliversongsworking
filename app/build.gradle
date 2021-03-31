@@ -11,8 +11,8 @@ android {
         applicationId "com.pawan.beliverssongs"
         minSdkVersion 26
         targetSdkVersion 30
-        versionCode 4
-        versionName "4"
+        versionCode 6
+        versionName "6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
